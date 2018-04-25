@@ -1,0 +1,234 @@
+<!doctype html>
+<html>
+<head>
+
+ <!-- Start WOWSlider.com HEAD section -->
+ <link rel="stylesheet" type="text/css" href="engine1/style.css" />
+ <script type="text/javascript" src="engine1/jquery.js"></script>
+ <!-- End WOWSlider.com HEAD section -->
+
+ <link rel="stylesheet" href="themes/tema.min.css" />
+ <link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+ <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
+ <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+ <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+ <meta charset="utf-8">
+ <title>Aplicacion 3</title>
+ <script type="text/javascript">
+ function MM_swapImgRestore() { //v3.0
+   var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+ }
+ function MM_preloadImages() { //v3.0
+   var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+     var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+     if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+  }
+
+  function MM_findObj(n, d) { //v4.01
+   var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+     d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+   if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+   for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+    if(!x && d.getElementById) x=d.getElementById(n); return x;
+ }
+ 
+ function MM_swapImage() { //v3.0
+   var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+    if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+ }
+ </script>
+</head>
+
+<div data-role="page" id "Principal" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1>Dia mundial de la bicicleta</h1>
+</div>
+<div data-role="main" class="ul-content">
+ <div data-role="collapsible" data-content-theme="false">
+  <h1>Banner conmemorativo</h1>
+   <div>
+   <p>ciclistas</p>
+   <br>
+   </div>
+   <div> 
+    <img src="imagenes/banner.png" width="1170" height= "400">
+    </div>
+    </div>
+    </div>
+<div>
+ <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+  <li class="ui-first-child ui-last-child">
+  <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+  <h2>Historia de la bicicleta</h2>
+  </a>
+  </li>
+  <li class="ui-first-child ui-last-child">
+   <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2> Utilización como medio de transporte</h2>
+   </a>
+   </li>
+   <li class="ui-first-child ui-last-child">
+  <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+  <h2> Tipos de Bicicletas</h2>
+  </a>
+  </li>
+  <li class="ui-first-child ui-last-child">
+   <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>5 marcas importantes de bicicletas</h2>
+   </a>
+   </li>
+   <li class="ui-first-child ui-last-child">
+   <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2> Porqué se celebra el Día Mundial de la bicicleta</h2>
+   </a>
+   </li>
+  </ul>
+  </div> 
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+    <img src ="res/android/bici.png" width="128" height="128">
+    </div>
+    <div>
+      <h4>Aplicacion tres</h4>
+      <h4>Quiroz Garcia Daniel</h4>
+   </div>
+  </div>
+  </div>
+<div data-role="page" id="Pagina1" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    <h1>Historia de la bicicleta</h1>
+    </div>
+    <div data-role="content" align="center">
+     <div >
+     <h2>o que sí está claro es que la bicicleta es el resultado de la evolución de un juguete, en concreto del Célérifère que venía a ser un chasis macizo de madera con forma de animal y con dos ruedas con el que sólo se podía ir en línea recta. Como indica su nombre este juguete nació en Francia y en concreto en París el 1791 en plena revolución francesa de la mano del conde Mede de Sivrac hasta lo que conocemos hoy en dia.</h2>
+     <p><img src="imagenes/bicicletahistoria.jpg" width=25% height=25%></p>
+     </div>
+ </div>
+   <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+    <div>
+     <img src="res/android/bici.png" width="128" height="128">
+     </div>
+     <h4>Aplicacion tres</h4>
+     <h4>Quiroz Garcia Daniel</h4>
+   </div>
+  </div>
+  
+ <div data-role="page" id="Pagina2" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    <h1>Utilizacion como medio de transporte</h1>
+    </div>
+    
+    <div data-role="content" align="center">
+     <div >
+     <h2>La bicicleta es el medio de transporte favorito para muchos ya que es una alternativa ecologica para transportarse ademas de que trae muchos beneficios, entre ellos el hacer ejercicio.</h2>
+    
+     </div>
+      <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('transporte','','imagenes/sustitucion2.JPG',1)"><img src="imagenes/bicitransporte.jpg" width="500" height="375" id="transporte"></a>
+ </div>
+   <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+    <div>
+     <img src="res/android/bici.png" width="128" height="128">
+     </div>
+     <h4>Aplicacion tres</h4>
+     <h4>Quiroz Garcia Daniel</h4>
+   </div>
+  </div>
+ 
+ 
+<div data-role="page" id="Pagina3" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    <h1>Tipos de bicicletas</h1>
+    </div>
+    <div data-role="content" align="center">
+     <div >
+     <h2>Existen varios tipos de bicicletas, entre ellas todas tienen una distinta funcionalidad a la hora de adquirir una, entre ellas estan las bicis de montaña, ruta, hibridas urbanas y plegables</h2>
+     <a href="http://labicicleta.info/tipos-de-bicicleta/" target="_self" click aqui para mas informacion </a> 
+     <p><img src="imagenes/tiposbicis.jpg" width=25% height=25%></p>
+     </div>
+ </div>
+   <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+    <div>
+     <img src="res/android/bici.png" width="128" height="128">
+     </div>
+     <h4>Aplicacion tres</h4>
+     <h4>Quiroz Garcia Daniel</h4>
+   </div>
+  </div>
+  
+<div data-role="page" id="Pagina4" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    <h1>5 marcas importantes de bicicletas</h1>
+    </div>
+     <div data-role="content" align="center">
+     <div >
+       <p><strong>Bergamont, </strong><strong> Bianchi, </strong><strong>BMC, </strong><strong>Bottechia, </strong><strong> BTwin</strong></p>
+       <h2>&nbsp;</h2> 
+     </div>
+     
+     <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/bergamont.jpg" alt="bergamont" title="bergamont" id="wows1_0"/></li>
+		<li><img src="data1/images/top.png" alt="top" title="top" id="wows1_1"/></li>
+		<li><img src="data1/images/bianchi.jpg" alt="bianchi" title="bianchi" id="wows1_2"/></li>
+		<li><img src="data1/images/bmc.jpg" alt="bmc" title="bmc" id="wows1_3"/></li>
+		<li><img src="data1/images/bottecchia.jpg" alt="bottecchia" title="bottecchia" id="wows1_4"/></li>
+		<li><img src="data1/images/btwin.jpg" alt="btwin" title="btwin" id="wows1_5"/></li>
+		<li><a href="http://wowslider.com"><img src="data1/images/ciclistas.jpg" alt="wowslideshow" title="ciclistas" id="wows1_6"/></a></li>
+		<li><img src="data1/images/dadelabicicleta.jpg" alt="Día-de-la-bicicleta" title="Día-de-la-bicicleta" id="wows1_7"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="bergamont"><span><img src="data1/tooltips/bergamont.jpg" alt="bergamont"/>1</span></a>
+		<a href="#" title="top"><span><img src="data1/tooltips/top.png" alt="top"/>2</span></a>
+		<a href="#" title="bianchi"><span><img src="data1/tooltips/bianchi.jpg" alt="bianchi"/>3</span></a>
+		<a href="#" title="bmc"><span><img src="data1/tooltips/bmc.jpg" alt="bmc"/>4</span></a>
+		<a href="#" title="bottecchia"><span><img src="data1/tooltips/bottecchia.jpg" alt="bottecchia"/>5</span></a>
+		<a href="#" title="btwin"><span><img src="data1/tooltips/btwin.jpg" alt="btwin"/>6</span></a>
+		<a href="#" title="ciclistas"><span><img src="data1/tooltips/ciclistas.jpg" alt="ciclistas"/>7</span></a>
+		<a href="#" title="Día-de-la-bicicleta"><span><img src="data1/tooltips/dadelabicicleta.jpg" alt="Día-de-la-bicicleta"/>8</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">jquery slider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+   
+     
+ </div>
+   <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+    <div>
+     <img src="res/android/bici.png" width="128" height="128">
+     </div>
+     <h4>Aplicacion tres</h4>
+     <h4>Quiroz Garcia Daniel</h4>
+   </div>
+  </div>
+  
+  
+<div data-role="page" id="Pagina5" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    <h1>por que se celebra el dia mundial de la bicicleta</h1>
+    </div>
+    <div data-role="content" align="center">
+<div >
+     <h2>El <strong>Día Mundial de la Bicicleta</strong> o <strong>Día de la Bicicleta</strong> se celebra en todo el mundo cada 19 de abril con la finalidad de promover el uso de este medio de transporte, llamar la atención sobre los derechos de los ciclistas y destacar sus beneficios para la salud y para la movilidad sostenible</h2> 
+     </div>
+     <body onLoad="MM_preloadImages('imagenes/imagensustitucion.jpg','imagenes/sustitucion2.JPG')">
+ <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('diabici','','imagenes/imagensustitucion.jpg',1)"><img src="imagenes/Día-de-la-bicicleta.jpg" width="500" height="400" id="diabici"></a>
+</body>
+ </div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+    <div>
+     <img src="res/android/bici.png" width="128" height="128">
+     </div>
+     <h4>Aplicacion tres</h4>
+     <h4>Quiroz Garcia Daniel</h4>
+   </div>
+  </div>
+
+
+
+
+</body>
+</html>
